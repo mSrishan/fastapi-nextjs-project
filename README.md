@@ -43,7 +43,7 @@ python -m venv venv
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
 
-cd ../frontend
+cd client
 npm install
 npm run dev
 
